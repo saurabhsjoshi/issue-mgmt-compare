@@ -1,0 +1,1 @@
+FROM jetbrains/youtrack:2022.3.65369
