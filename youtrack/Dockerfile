@@ -1,1 +1,1 @@
-FROM jetbrains/youtrack:2022.3.65369
+FROM --platform=amd64 jetbrains/youtrack:2022.3.65369
