@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.14.2'
 
     // Lombok
     compileOnly 'org.projectlombok:lombok:1.18.26'

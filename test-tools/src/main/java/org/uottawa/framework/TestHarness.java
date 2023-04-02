@@ -11,6 +11,8 @@ public interface TestHarness {
      */
     boolean login();
 
+    Project createProject(Project project);
+
     /**
      * Create an issue.
      *
@@ -32,4 +34,6 @@ public interface TestHarness {
      * @return list of issues
      */
     List<Issue> loadIssues();
+
+    void deleteProject(Project project);
 }

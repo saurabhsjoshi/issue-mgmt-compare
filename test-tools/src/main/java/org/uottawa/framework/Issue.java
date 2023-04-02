@@ -8,8 +8,7 @@ import lombok.Data;
 @Data
 public class Issue {
     private String id;
-    private String project;
-    private String component;
+    private Project project;
     private String summary;
     private String description;
 }
