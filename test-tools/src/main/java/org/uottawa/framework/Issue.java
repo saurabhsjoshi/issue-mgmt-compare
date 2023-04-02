@@ -1,4 +1,4 @@
-package org.uottawa;
+package org.uottawa.framework;
 
 import lombok.Data;
 
@@ -8,6 +8,8 @@ import lombok.Data;
 @Data
 public class Issue {
     private String id;
+    private String project;
+    private String component;
     private String summary;
     private String description;
 }

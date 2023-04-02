@@ -1,6 +1,6 @@
 package org.uottawa.impl;
 
-import org.uottawa.TestHarness;
+import org.uottawa.framework.TestHarness;
 
 import java.util.Map;
 

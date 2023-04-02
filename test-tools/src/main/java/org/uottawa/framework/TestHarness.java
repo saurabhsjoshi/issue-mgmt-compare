@@ -1,4 +1,4 @@
-package org.uottawa;
+package org.uottawa.framework;
 
 import java.util.List;
 

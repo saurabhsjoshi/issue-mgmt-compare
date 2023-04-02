@@ -1,7 +1,10 @@
 package org.uottawa;
 
+import org.uottawa.impl.BzTestHarness;
+
 public class BzTester {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        TestSuite testSuite = new TestSuite(new BzTestHarness());
+        testSuite.start();
     }
 }
